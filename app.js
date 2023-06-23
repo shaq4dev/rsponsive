@@ -10,11 +10,12 @@ open.addEventListener('click',(e) => {
     close.style.display = 'block'
 })
 
-close.addEventListener('click', () => {
+close.addEventListener('click', (e) => {
     menu.style.display = 'none'
     open.style.display = 'block'
     close.style.display = 'none'
 })
+
 
 // footer element
 
@@ -33,8 +34,6 @@ const lightSwitch = document.querySelector('.toLight')
 // elements 
 
 const body = document.body 
-const h3 = document.querySelector('h3')
-const p = document.querySelector('p')
 
 // default styles 
 
