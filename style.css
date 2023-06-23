@@ -68,6 +68,25 @@ img {
         letter-spacing: .5px;
     }
 
+    /* toggle switch */
+
+    .toDark,
+    .toLight {
+        color: var(--white);
+        border: none;
+        font-size: 30px;
+    }
+
+    /* .toDark {
+        display: none;
+    } */
+
+    .toLight {
+        display: none;
+    }
+
+    /* toggle switch end */
+
     .fa-caret-down {
         font-size: 12px;
     }
@@ -84,9 +103,9 @@ img {
         color: var(--white);
     }
 
-    .open {
-        /* display: none; */
-    }
+    /* .open {
+        display: none;
+    } */
 
     .open:hover,
     .close:hover {
@@ -256,10 +275,29 @@ img {
             cursor: pointer;
             color: var(--white);
         }
-    
-        .open {
-            /* display: none; */
+
+        /* toggle switch */
+
+        .toDark,
+        .toLight {
+            color: var(--white);
+            border: none;
+            font-size: 30px;
         }
+
+        /* .toDark {
+        display: none;
+    } */
+
+        .toLight {
+            display: none;
+        }
+
+        /* toggle switch end */
+    
+        /* .open {
+            display: none;
+        } */
     
         .open:hover,
         .close:hover {
@@ -395,17 +433,17 @@ img {
     /* nav items */
 
     .logo {
-        font-size: 35px;
+        font-size: 30px;
         color: var(--white);
     }
     
     .menu ul {
         display: flex;
-        padding: 0 20px;
+        padding: 0 5px;
     }
 
     .menu ul li {
-        padding: 30px;
+        padding: 20px 10px;
         cursor: pointer;
         transition: var(--transition-03);
         
@@ -419,6 +457,24 @@ img {
     .menu ul li a {
         color: var(--white);
         /* padding: 30px; */
+    }
+
+    /* toggle */
+
+    .toDark, 
+    .toLight {
+        border: none;
+        color: var(--white);
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    /* .toDark {
+        display: none;
+    } */
+
+    .toLight {
+        display: none;
     }
 
     .fa-caret-down {
